@@ -8,6 +8,7 @@ end
 gem 'devise'
 
 gem 'bootstrap_form'
+
 gem 'faker'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -58,3 +59,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # bootstrap
 gem 'bootstrap-sass', '~> 3.3.7'
+
+gem 'will_paginate', '~> 3.1.0'
