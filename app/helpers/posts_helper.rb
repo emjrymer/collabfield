@@ -1,4 +1,8 @@
 module PostsHelper
+  def post_format_partial_path
+    current_page?(root_path) ? 'posts/post/home_page' : 'posts/post/branch_page'
+  end
+
   def create_new_post_partial_path
     if user_signed_in?
       'posts/branch/create_new_post/signed_in'
